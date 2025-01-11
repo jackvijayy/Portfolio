@@ -132,7 +132,7 @@ export const myProjects = [
     subdesc:
       'Built with React JS, Tailwindcss, RapidApi and ContextAPI creating the user friendly user Interface',
     href: 'https://weatheriox.web.app/',
-    texture: '/texture/weather.mp4',
+    texture: '/Texture/weather.mp4',
     logo: '/logo/cloudy-day.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
