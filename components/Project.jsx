@@ -33,9 +33,9 @@ const Project = () => {
     <section className="my-20">
       <div className="flex justify-between items-center">
         <p className="text-[#E4ECFF] text-xl lg:text-3xl">My Selected Work</p>
-        {/* <Link href="project" className="bg-black-2 shadow-2xl p-2 rounded-full">
+        <Link href="projects" className="bg-black-2 shadow-2xl p-2 rounded-full">
           <ArrowRight color="white" />
-        </Link> */}
+        </Link>
       </div>
 
       {/* project grid */}
