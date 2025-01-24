@@ -230,7 +230,7 @@ export const projectsAlt=[
       {
         id: 4,
         name: 'three js',
-        path: '/stacks/Threejs.png',
+        path: '/stacks/threejs.png',
       },
     ],
   },
@@ -276,7 +276,7 @@ export const projectsAlt=[
     logoStyle: {
       backgroundColor: '#000009',
       border: '0.2px solid #464F51',
-      boxShadow: '0px 0px 30px 0px #D68FD6',
+      boxShadow: '0px 0px 20px 0px #D68FD6',
     },
     spotlight: '/images/spotlight4.png',
     tags: [

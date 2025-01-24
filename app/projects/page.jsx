@@ -1,15 +1,16 @@
+
 import { projectsAlt } from "@/constants";
 import React from "react";
 
 const page = () => {
   return (
     <section
-      className="bg-black p-5 lg:p-10 flex justify-center items-center overflow-hiddden
+      className="bg-black relative p-5 lg:p-10 flex justify-center items-center overflow-hiddden
     "
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         {projectsAlt.map((item) => (
-          <div className="flex flex-col gap-5 relative sm:p-10 py-10 border border-black-2 px-5 shadow-2xl shadow-black-200">
+          <div key={item.id} className="flex flex-col gap-5 relative sm:p-10 py-10 border border-black-2 px-5 shadow-2xl shadow-black-200">
             <div className="absolute top-0 right-0">
               <img
                 src={item.spotlight}
