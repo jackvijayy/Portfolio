@@ -46,7 +46,7 @@ const Hero = () => {
   return (
     <div className="relative w-full min-h-screen flex flex-col items-center justify-center overflow-hidden">
       {/* Background Grid */}
-      <div className="absolute inset-0 h-full w-full dark:bg-black bg-white dark:bg-grid-white/[0.06] bg-grid-black/[0.5]">
+      <div className="absolute inset-0 h-full w-full bg-black  bg-grid-white/[0.06]">
 
       {/* Ballpit Positioned Properly */}
       <div className="absolute inset-0 flex w-full items-center justify-center pointer-events-none">
