@@ -64,7 +64,7 @@ const Hero = () => {
         </h2>
         <TextGenerateEffect
           words="Transforming Concepts into Seamless User Experiences"
-          className="text-center font-extrabold text-black dark:text-white"
+          className="text-center font-extrabold text-white"
         />
         <Button text="Let's Work Together" className="mt-10" beam={true} />
       </div>
